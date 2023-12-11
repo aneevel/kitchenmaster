@@ -1,8 +1,9 @@
 const http = require('node:http');
+const debug = require('debug')('node-angular');
 const app = require('./kitchenmaster/backend/app');
 
 const normalizePort = value => {
-    let port = parseInt(val, 10);
+    let port = parseInt(value, 10);
 
     if (isNaN(port)) {
         return value;
