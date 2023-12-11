@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/aneevel/kitchenmaster#readme",
   "dependencies": {
+    "@angular/cli": "^17.0.6",
     "node": "^21.2.0",
     "nodejs": "^0.0.0"
   }
